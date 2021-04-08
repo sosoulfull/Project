@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.gBackground{
+    background-image: url("images.jpg");
+    background-color:rgb(213, 245, 191);
+    border:solid 1px rgb(122, 214, 122);
+    width: 1000px;
+    padding:20px;
+    margin: auto;
+}
+
+.pBackground{
+    background-color:rgb(122, 214, 122);
+    width: 700px;
+    padding:20px;
+    margin-left: 120px;
+    justify-content: space-evenly;
+}
+.header{
+    background-color: rgb(213, 245, 191);
+    border:solid 1px rgb(170, 63, 98);
+    width: 630px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-left: 15px;
+    
+}
+.header h1{
+    color:rgb(170, 63, 98);
+}
+.content{
+    width: 760px;
+    margin-left: 160px;
+}
+#hungry_img{
+    width: 50px;
+    height: 50px;
+}
+.content button{
+    background-color: white;
+	color:rgb(170, 63, 98);
+	border:solid 3px rgb(170, 63, 98);
+	border-radius: 3px;
+    width: 120px;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 35px;
+    text-align: center;
+    
+}
+.sad p{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    height: 40px;
+    width: 335px;
+    font-family:cursive;
+    font-size: 15px;
+}
+.hungry span{
+    font-weight: bold;
+}
+.hungry p{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    font-family:cursive;
+    font-size: 15px;
+}
+.API{
+    width: 700px;
+    padding: 20px;
+    display: inline-block;
+}
+.API img{
+    width:300px;
+    height:200px;
+}
